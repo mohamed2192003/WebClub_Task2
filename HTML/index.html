@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Our Site</title>
+    <link rel="stylesheet" href="./../CSS/style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="head">
+        <div class="inner">
+          <h1>Welcome to Our Site</h1>
+          <nav>
+            <ul>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#catalog">Product Catalog</a></li>
+              <li><a href="#blog">Blog</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <br />
+      <div class="outer">
+        <section class="contact" id="contact">
+          <div class="inner">
+            <h2>Contact Us</h2>
+            <hr />
+            <form>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <br />
+              <div class="form-group">
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <br />
+              <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" />
+              </div>
+              <br />
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <br />
+              <div>
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </section>
+        <br />
+        <section class="catalog" id="catalog">
+          <div class="inner">
+            <h2>Product Catalog</h2>
+            <hr />
+            <table>
+              <thead>
+                <th>PRODUCT NAME</th>
+                <th>PRICE</th>
+                <th>AVAILABILITY</th>
+                <th>DESCRIPTION</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Smart Watch</td>
+                  <td>$99</td>
+                  <td>In Stock</td>
+                  <td>
+                    Stylish and functional smartwatch with heart-rate
+                    monitoring.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Wireless Earbuds</td>
+                  <td>$49</td>
+                  <td>Out Of Stock</td>
+                  <td>Compact wireless earbuds with noise cancellation.</td>
+                </tr>
+                <tr>
+                  <td>Bluetooth Speaker</td>
+                  <td>$29</td>
+                  <td>In Stock</td>
+                  <td>
+                    Portable speaker with rich sound and long battery life.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <br />
+        <section class="blog" id="blog">
+          <div class="inner">
+            <h2>My First Blog Post</h2>
+            <hr />
+            <p>by <strong>Mohamed Shawky</strong></p>
+            <p>
+              Read our latest articles and insights on our blog section. Coming
+              soon!
+            </p>
+          </div>
+          <div class="inner">
+            <h2>Introduction</h2>
+            <p>
+              Welcome to my first blog post! I'm excited to start this journey
+              and share my thoughts with you all.
+            </p>
+          </div>
+          <div class="inner">
+            <h2>Main Points</h2>
+            <p>
+              Today I learned about semantic HTML and how it helps structure
+              content meaningfully.
+            </p>
+            <br />
+            <p>
+              Semantic elements like &lt;header&gt;, &lt;article&gt;,
+              &lt;section&gt;, and &lt;footer&gt; make your HTML more readable
+              and accessible.
+            </p>
+            <br />
+            <img src="./../IMGS/imgi_1_original.png" alt="comparison" />
+            <br />
+            <p>
+              Here's a great resource to learn more:
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements"
+                target="_blank"
+                >MDN Web Docs</a
+              >
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="inner">
+        <p>&copy; 2025 Mohamed Shawky. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
